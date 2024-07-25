@@ -1,0 +1,81 @@
+.Auth-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    max-height: fit-content;
+    background-image: url('../Image/bg9.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  
+}
+
+  .Auth-form {
+    width: 60%;
+    max-width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 10px;
+    border-radius: 8px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    margin-bottom: 5px;
+
+  }
+  
+  .Auth-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+   
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: whitesmoke;
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: whitesmoke;
+  }
+  p{
+    color: whitesmoke;
+  }
+  #email{
+    text-transform: lowercase;
+  }
+  #email::placeholder{
+    text-transform: capitalize;
+  }
+
+ .form-group{
+    display: flex;
+    flex-direction: column;  
+ }
+
+ label{
+    text-align: left;
+ }
+
+ .Riv-container{
+    width: 60%;
+
+ }
+
+ .rive-container{
+  height: 150px;
+  max-width: 383px;
+  min-width: 10%;
+  min-height: 10%;
+  margin: 0 auto;
+}
+
+.error{
+  margin: 0;
+}
